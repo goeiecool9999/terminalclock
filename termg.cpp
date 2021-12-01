@@ -42,10 +42,6 @@ void getScreenDim(int* sizeArr) {
 	sizeArr[3] = size.ws_ypixel;
 }
 
-double abs(double num) {
-	return num >= 0 ? num : -num;
-}
-
 void drawLine(int a,int b, int c, int d) {
 	drawLine((double)a,(double)b,(double)c,(double)d);
 }

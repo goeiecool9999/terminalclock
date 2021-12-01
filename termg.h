@@ -12,8 +12,6 @@ void setCursorInvis();
 
 void getScreenDim(int* sizeArr);
 
-double abs(double num);
-
 void drawLine(int a,int b, int c, int d);
 void drawLine(double p1x, double p1y, double p2x, double p2y);
 void drawLine(int a,int b, int c, int d, char** arr);
