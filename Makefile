@@ -1,6 +1,6 @@
 OBJS=clock.o termg.o timeutils.o
-LDFLAGS=-pthread -g
-CXXFLAGS=-g -Og -std=c++11
+LDFLAGS=-pthread
+CXXFLAGS=-std=c++11
 
 all: clock
 
